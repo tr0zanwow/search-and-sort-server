@@ -3,7 +3,7 @@ var body_parser = require('body-parser')
 var cors = require('cors')
 var app = express()
 var mockData = require('./mock_data.json')
-var port = 3000 || process.env.PORT
+var port = process.env.PORT
 
 var jsonParser = body_parser.json()
 var corsOptions = {
